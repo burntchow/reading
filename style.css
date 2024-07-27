@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f3f3;
+}
+
+.container {
+    text-align: center;
+}
+
+#inputText {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#wordContainer {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.word {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+#nextBtn {
+    display: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
